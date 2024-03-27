@@ -1,0 +1,8 @@
+#!/bin/sh
+
+sysctl --system
+
+deb-systemd-invoke restart systemd-binfmt.service
+if [ -z "$2" ]; then
+  deb-systemd-invoke enable systemd-binfmt.service
+fi

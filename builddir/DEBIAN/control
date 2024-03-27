@@ -1,0 +1,12 @@
+Package: lat
+Version: 1.4.4-1
+Section: non-free/otherosfs
+Architecture: loong64
+Maintainer: deepin <support@deepin.org>
+Depends: libc6 (>= 2.37)
+Priority: optional
+Multi-Arch: same
+Homepage: http://loongnix.cn
+Description: Loongson Architecture Translator
+ Static binary for Loongson Architecture Translator
+
